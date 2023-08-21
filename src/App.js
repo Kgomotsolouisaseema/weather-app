@@ -1,9 +1,12 @@
 
-import './App.css';
+import './index.css';
+import Home from './components/pages/Home';
 
 function App() {
   return (
-    <h1>Weather app </h1>
+    <div>
+      <Home/>
+    </div>
   );
 }
 

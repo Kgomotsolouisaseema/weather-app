@@ -11,3 +11,24 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+
+.weather-card {
+  /* background-color: rgba(255, 255, 255, 0.8); */
+  margin-bottom: 20px;
+  border-radius: 10px;
+  padding: 10px;
+  /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+}
+
+.news-card {
+  /* background-color: rgba(255, 255, 255, 0.8); */
+  border-radius: 10px;
+  padding: 15px;
+  /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+}
+
+.custom-form .form-control{
+  border-radius: 20px;
+}
