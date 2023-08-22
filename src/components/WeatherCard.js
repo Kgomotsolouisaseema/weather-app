@@ -1,17 +1,15 @@
 import React from 'react';
-import { Card } from 'react-bootstrap';
 
- function WeatherCard({location , temptreture ,description}) {
-
+const WeatherCard = ({ location, temperature, description }) => {
   return (
-   <Card className='weather-card'>
-    <Card.Body>
-        <Card.Title>{location}</Card.Title>
-        <Card.Text>Tempreture  : {temptreture}°C</Card.Text>
-        <Card.Text>Description : {description}</Card.Text>
-    </Card.Body>
-   </Card>
+    <div className='weather-card'>
+      <div className='weather-card-body'>
+        <h3 className='weather-card-title'>{location}</h3>
+        <p className='weather-card-text'>Temperature: {temperature}°C</p>
+        <p className='weather-card-text'>Description: {description}</p>
+      </div>
+    </div>
   );
-}
+};
 
 export default WeatherCard;

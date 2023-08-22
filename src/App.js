@@ -1,11 +1,13 @@
 
+import Home from './components/Home';
 import './index.css';
-import Home from './components/pages/Home';
+
 
 function App() {
   return (
     <div>
       <Home/>
+
     </div>
   );
 }
